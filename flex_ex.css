@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    /* background-color: blue; */
+}
+
+ul{
+    list-style-type: none;    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+ }
+
+ /* a:hover{
+    color: hsl(30,99%,51%);
+ } */
+
+ /* header */
+ header {
+    background-color: hsl(30,99%,51%);
+    padding: 30px;
+    text-transform: capitalize;
+ }
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap:20px;
+    background-color: hsl(0,0%,93%);
+    }
+
+.nav-list a {
+    font-size: 20px;
+    /* margin: 20px; */
+    text-transform: capitalize;
+    color: hsl(0,0%,47%);
+}    
+
+a:hover{
+    color: hsl(30,99%,51%);
+ }
+
+main {
+    display: flex;
+    /* gap: 40px; */
+    /* padding: 40px; */
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* border: 1px solid red; */
+    gap: 20px;
+}
+
+main section {
+    flex: 1;
+    /* width: 650px; */
+}
+
+main aside{
+    width: 250px;
+}
+
+section h2{
+    margin: 15px 0;
+}
+
+aside h3{
+padding: 8px;
+background-color: hsl(30,99%,51%);
+color: white;
+}
+
+aside li{
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}

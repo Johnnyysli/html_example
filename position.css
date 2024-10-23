@@ -1,0 +1,61 @@
+.box{
+
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.box-1{
+    position: static;
+    /* left: 30px; */
+    /* left, right, top, bottom has no effect */
+    left: 30px;
+}
+
+.box-2{
+    position: relative;
+    /* left: 30px; */
+    /* right: 30px; */
+    left: -30px;
+    top:-20px;
+}
+
+.box-3{
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 2;
+}
+
+.box-4{
+    /* fixed + relative */
+    position: sticky;
+    top: 200px;
+    z-index: 2;
+}
+
+.box-5{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: orange;
+}
+
+.box-6{
+    /* absolute must follow relative */
+    position: absolute;
+    top: 120x;
+    right: 20px;
+}
+
+.box-7{
+    /* no z-index assume layer 1*/
+    position: fixed;
+    background-color: brown;
+    top:0;
+    right: 10px;
+}
+
+
